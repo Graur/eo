@@ -244,11 +244,11 @@
     $.equal-to 2
 
 [] > directly-accesses-objects-from-root
-  Q.org.eolang.memory > m
+  QQ.memory > m
   assert-that > @
     seq
       m.write 42
-      Q.org.eolang.io.stdout
+      QQ.io.stdout
         "Hello, world!"
       m.write (m.sub 2)
       m

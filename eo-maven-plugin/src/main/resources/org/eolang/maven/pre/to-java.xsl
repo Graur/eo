@@ -342,8 +342,8 @@ SOFTWARE.
       <xsl:when test="@base='$'">
         <xsl:text>rho</xsl:text>
       </xsl:when>
-      <xsl:when test="@base='Q'">
-        <xsl:text>Phi.Φ</xsl:text>
+      <xsl:when test="@base='QQ'">
+        <xsl:text>new PhPackage("org.eolang")</xsl:text>
       </xsl:when>
       <xsl:when test="@base='^'">
         <xsl:text>new PhMethod(rho, "ρ")</xsl:text>

@@ -45,10 +45,10 @@ eo: |
           (((t' 22) r:t 8.54 "yes".< "\t").print 88 0x1f):hey TRUE.< FALSE > a!
             # This object is also very good
             []
-              Q.x.f.d Q Q
+              QQ.x.f.d QQ QQ
               &.@.< > t
               ^.@.hey > you...
-              Q
+              QQ
             ...kid.^.^
             "家"
       f':u

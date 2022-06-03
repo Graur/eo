@@ -38,15 +38,9 @@ public final class PhiTest {
     public void takesPackage() {
         MatcherAssert.assertThat(
             new Dataized(
-                new PhCopy(
-                    new PhMethod(
-                        new PhMethod(
-                            Phi.Φ.attr("org").get(),
-                            "eolang"
-                        ),
-                        "random"
-                    )
-                )
+                new PhMethod(
+                    new PhPackage("org.eolang"),
+                "random")
             ).take(Double.class),
             Matchers.greaterThan(-1.0d)
         );

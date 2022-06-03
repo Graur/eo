@@ -31,7 +31,7 @@ import java.lang.reflect.InvocationTargetException;
  *
  * @since 0.22
  */
-final class PhPackage implements Phi {
+public final class PhPackage implements Phi {
 
     /**
      * The name of the Java package.
@@ -42,7 +42,7 @@ final class PhPackage implements Phi {
      * Ctor.
      * @param name The name
      */
-    PhPackage(final String name) {
+    public PhPackage(final String name) {
         this.pkg = name;
     }
 

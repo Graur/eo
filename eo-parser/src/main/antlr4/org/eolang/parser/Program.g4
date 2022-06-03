@@ -216,7 +216,7 @@ META: PLUS NAME (SPACE ~[\r\n]+)?;
 
 REGEX: SLASH ~[\r\n]+ SLASH [a-z]*;
 
-ROOT: 'Q';
+ROOT: 'QQ';
 STAR: '*';
 DOTS: '...';
 CONST: '!';

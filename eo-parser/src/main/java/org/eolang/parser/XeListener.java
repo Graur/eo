@@ -296,7 +296,7 @@ public final class XeListener implements ProgramListener, Iterable<Directive> {
         } else if (ctx.RHO() != null) {
             base = "^";
         } else if (ctx.ROOT() != null) {
-            base = "Q";
+            base = "QQ";
         } else if (ctx.SIGMA() != null) {
             base = "&";
         }
